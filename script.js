@@ -48,7 +48,7 @@
         <p class="small profile-desc">We champion bold storytelling — films with heart and a clear cinematic voice.</p>
         <div class="profile-links">
           <a class="btn-secondary" href="mailto:hello@joshi.house">Email</a>
-          <a class="btn-secondary" href="https://instagram.com/" target="_blank">Instagram</a>
+          <a class="btn-secondary" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
         </div>
       </aside>
     </section>
@@ -76,7 +76,7 @@
             <div class="project-thumb">NM</div>
             <div class="project-card">
               <div class="project-title">Natmastak — short</div>
-              <div class="small">Director: Naimish Srivastav & Arushi Garg — Mumbai 2024</div>
+              <div class="small">Director: Naimish Srivastav &amp; Arushi Garg — Mumbai 2024</div>
               <div class="small">Status: Complete — Release to be announced</div>
             </div>
           </div>
@@ -84,7 +84,7 @@
           <div class="project-item">
             <div class="project-thumb">WL</div>
             <div class="project-card">
-              <div class="project-title">Wed‑Lock — short</div>
+              <div class="project-title">Wed-Lock — short</div>
               <div class="small">In development — writer attached — seeking investors</div>
             </div>
           </div>
@@ -102,12 +102,12 @@
 
           <div class="card project">
             <div class="service"><strong>Production</strong>
-              <div class="small">Short & feature production services, line producing and local crew hires.</div>
+              <div class="small">Short &amp; feature production services, line producing and local crew hires.</div>
             </div>
           </div>
 
           <div class="card project">
-            <div class="service"><strong>Co‑production partnerships</strong>
+            <div class="service"><strong>Co-production partnerships</strong>
               <div class="small">International partners and festival-first strategy.</div>
             </div>
           </div>
@@ -116,16 +116,17 @@
 
       <section id="contact" class="card contact-form">
         <h4 class="section-title">Contact</h4>
-        <p class="small">For submissions, collaborations, or co‑production enquiries, email us or use the contact form below.</p>
+        <p class="small">For submissions, collaborations, or co-production enquiries, email us or use the contact form below.</p>
+
         <form id="contactForm">
-          <label class="small">Name</label>
-          <input id="name" placeholder="Your name" />
+          <label class="small" for="name">Name</label>
+          <input id="name" name="name" placeholder="Your name" />
 
-          <label class="small">Email</label>
-          <input id="email" placeholder="you@example.com" />
+          <label class="small" for="email">Email</label>
+          <input id="email" name="email" placeholder="you@example.com" />
 
-          <label class="small">Message</label>
-          <textarea id="message" placeholder="Hi — I have a project / submission..."></textarea>
+          <label class="small" for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Hi — I have a project / submission..."></textarea>
 
           <div class="contact-actions">
             <button class="btn" type="submit">Send email</button>
