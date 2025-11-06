@@ -12,10 +12,10 @@
   <div class="container">
     <header>
       <div class="logo">
-        <div class="logo-badge"></div>
+        <div class="logo-badge">JH</div>
         <div>
           <div class="logo-title">Joshi House Pictures</div>
-          <div class="small"></div>
+          <div class="small">Independent film production house based in Mumbai</div>
         </div>
       </div>
       <nav>
@@ -28,13 +28,17 @@
 
     <section class="hero card">
       <div class="hero-left">
-        <h1>Simple people. Interesting Stories.</h1>
+        <h1>Simple people. Interesting stories.</h1>
         <p class="small">Joshi House Pictures produces independent films grounded in gritty realism and intimate characters. We develop, produce and co-produce shorts and features rooted in South Asian voices.</p>
         <div class="cta">
-          <a class="btn" href="#contact"></a>
-          <a class="btn-secondary" href="#work"></a>
+          <a class="btn" href="#contact">Work with us</a>
+          <a class="btn-secondary" href="#work">View projects</a>
         </div>
-       
+        <div class="tags">
+          <div class="tag">Development</div>
+          <div class="tag">Production</div>
+          <div class="tag">Co-production</div>
+        </div>
       </div>
 
       <aside class="profile">
@@ -52,11 +56,11 @@
     <main>
       <section id="about" class="card about">
         <h4 class="section-title">About Joshi House Pictures</h4>
-        <p class="small">Founded to tell intimate, character-driven stories from South Asia. Joshi House Pictures partners with writers and directors across the world to develop original voices. We focus on films that can travel, films that carry a universal soul and find audiences globally.</p>
+        <p class="small">Founded to tell intimate, character-driven stories from South Asia. Joshi House Pictures partners with writers and directors across the world to develop original voices. We focus on films that can travel — stories with a universal soul that find audiences globally.</p>
         <div class="grid about-grid">
           <div class="card project">
             <div class="title">Founded</div>
-            <div class="desc">2024 — Based in Mumbai; Working Internationally</div>
+            <div class="desc">2024 — Based in Mumbai; working internationally</div>
           </div>
           <div class="card project">
             <div class="title">Key strengths</div>
@@ -69,50 +73,70 @@
         <h4 class="section-title">Our Projects</h4>
         <div class="projects">
           <div class="project-item">
-            <div class="project-thumb"></div>
-            <div class="card project">
+            <div class="project-thumb">NM</div>
+            <div class="project-card">
               <div class="project-title">Natmastak — short</div>
-              <div class="small">Director: Naimish Srivastav & Arushi Garg : Mumbai 2024</div>
-              <div class="small">Complete — Release to be announced soon</div>
+              <div class="small">Director: Naimish Srivastav & Arushi Garg — Mumbai 2024</div>
+              <div class="small">Status: Complete — Release to be announced</div>
             </div>
           </div>
 
           <div class="project-item">
-            <div class="project-thumb"></div>
-            <div> class="card project">
-              <div class="project-title">Wed-Lock — short</div>
+            <div class="project-thumb">WL</div>
+            <div class="project-card">
+              <div class="project-title">Wed‑Lock — short</div>
               <div class="small">In development — writer attached — seeking investors</div>
             </div>
           </div>
+        </div>
       </section>
 
       <section id="services" class="card">
         <h4 class="section-title">Services We Provide</h4>
         <div class="services-list">
-        <div> class="card project">
-          <div class="service"><strong>Development</strong>
-          <div class="small"> Script notes, writer attachments, and early financing strategy.</div>
-        <div> class="card project">
-          <div class="service"><strong>Production</strong>
-          <div class="small"> Short & feature production services, line producing and local crew hires.</div>
-        <div> class="card project">
-          <div class="service"><strong>Co-production partnerships</strong>
-          <div class="small"> International partners and festival-first strategy.</div>
-        </div>
+          <div class="card project">
+            <div class="service"><strong>Development</strong>
+              <div class="small">Script notes, writer attachments, and early financing strategy.</div>
+            </div>
+          </div>
+
+          <div class="card project">
+            <div class="service"><strong>Production</strong>
+              <div class="small">Short & feature production services, line producing and local crew hires.</div>
+            </div>
+          </div>
+
+          <div class="card project">
+            <div class="service"><strong>Co‑production partnerships</strong>
+              <div class="small">International partners and festival-first strategy.</div>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="contact" class="card contact-form">
         <h4 class="section-title">Contact</h4>
-        <p class="small">For submissions, collaborations, or co-production enquiries, email us.</p>
-        <p class="mailto:hello@joshi.house"></a>
+        <p class="small">For submissions, collaborations, or co‑production enquiries, email us or use the contact form below.</p>
+        <form id="contactForm">
+          <label class="small">Name</label>
+          <input id="name" placeholder="Your name" />
+
+          <label class="small">Email</label>
+          <input id="email" placeholder="you@example.com" />
+
+          <label class="small">Message</label>
+          <textarea id="message" placeholder="Hi — I have a project / submission..."></textarea>
+
+          <div class="contact-actions">
+            <button class="btn" type="submit">Send email</button>
+            <a class="btn-secondary" href="mailto:hello@joshi.house">Or email directly</a>
           </div>
         </form>
       </section>
     </main>
 
     <footer>
-      <div class="small">© Joshi House Pictures.html</div>
+      <div class="small">© Joshi House Pictures — Made with cinematic intent</div>
     </footer>
   </div>
 
