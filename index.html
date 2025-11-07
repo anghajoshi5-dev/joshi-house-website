@@ -9,12 +9,28 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="header-bar">
+    <div class="header-inner">
+      <div class="logo-block">
+        <div class="logo-circle">JH</div>
+        <h1 class="site-title">Joshi House Pictures</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </div>
+
   <div class="container">
     <header>
       <div class="logo">
         <div class="logo-badge">JH</div>
         <div>
           <div class="logo-title">Joshi House Pictures</div>
+          <div class="small">Independent film production house based in Mumbai</div>
         </div>
       </div>
       <nav>
@@ -30,16 +46,24 @@
         <h1>Simple people. Interesting stories.</h1>
         <p class="small">Joshi House Pictures produces independent films grounded in gritty realism and intimate characters. We develop, produce and co-produce shorts and features rooted in South Asian voices.</p>
         <div class="cta">
+          <a class="btn" href="#contact">Work with us</a>
+          <a class="btn-secondary" href="#work">View projects</a>
+        </div>
+        <div class="tags">
+          <div class="tag">Development</div>
+          <div class="tag">Production</div>
+          <div class="tag">Co-production</div>
         </div>
       </div>
 
       <aside class="profile">
+        <div class="avatar">JH</div>
         <h3>Joshi House Pictures</h3>
-        <div class="small">Mumbai</div>
+        <div class="small">Mumbai • Independent • Festival-driven</div>
         <p class="small profile-desc">We champion bold storytelling — films with heart and a clear cinematic voice.</p>
         <div class="profile-links">
           <a class="btn-secondary" href="mailto:hello@joshi.house">Email</a>
-          <a class="btn-secondary" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+          <a class="btn-secondary" href="https://instagram.com/" target="_blank">Instagram</a>
         </div>
       </aside>
     </section>
@@ -63,18 +87,24 @@
       <section id="work" class="card">
         <h4 class="section-title">Our Projects</h4>
         <div class="projects">
-          <div class="card project">
-            <div class="project"><strong>Natmastak</strong>
-              <div class="small">Directed by Arushi Garg & Naimish Srivastav. Written by Naimish Srivastav.</div>
+          <div class="project-item">
+            <div class="project-thumb">NM</div>
+            <div class="project-card">
+              <div class="project-title">Natmastak — short</div>
+              <div class="small">Director: Naimish Srivastav & Arushi Garg — Mumbai 2024</div>
+              <div class="small">Status: Complete — Release to be announced</div>
             </div>
           </div>
 
-          <div class="card project">
-            <div class="project"><strong>Wed-Lock</strong>
-              <div class="small">Written and Directed by Pankaj Naidu.</div>
+          <div class="project-item">
+            <div class="project-thumb">WL</div>
+            <div class="project-card">
+              <div class="project-title">Wed-Lock — short</div>
+              <div class="small">In development — writer attached — seeking investors</div>
             </div>
           </div>
-          </section>
+        </div>
+      </section>
 
       <section id="services" class="card">
         <h4 class="section-title">Services We Provide</h4>
@@ -87,7 +117,7 @@
 
           <div class="card project">
             <div class="service"><strong>Production</strong>
-              <div class="small">Short &amp; feature production services, line producing and local crew hires.</div>
+              <div class="small">Short & feature production services, line producing and local crew hires.</div>
             </div>
           </div>
 
@@ -101,16 +131,27 @@
 
       <section id="contact" class="card contact-form">
         <h4 class="section-title">Contact</h4>
-        <p class="small">For submissions, collaborations, or co-production enquiries, email us.</p>
+        <p class="small">For submissions, collaborations, or co-production enquiries, email us or use the contact form below.</p>
+        <form id="contactForm">
+          <label class="small">Name</label>
+          <input id="name" placeholder="Your name" />
 
-            <a class="btn-secondary" href="mailto:hello@joshihousepictures.com">Mail Us</a>
+          <label class="small">Email</label>
+          <input id="email" placeholder="you@example.com" />
+
+          <label class="small">Message</label>
+          <textarea id="message" placeholder="Hi — I have a project / submission..."></textarea>
+
+          <div class="contact-actions">
+            <button class="btn" type="submit">Send email</button>
+            <a class="btn-secondary" href="mailto:hello@joshi.house">Or email directly</a>
           </div>
         </form>
       </section>
     </main>
 
     <footer>
-      <div class="small">© Joshi House Pictures</div>
+      <div class="small">© Joshi House Pictures — Made with cinematic intent</div>
     </footer>
   </div>
 
